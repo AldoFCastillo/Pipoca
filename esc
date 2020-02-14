@@ -1,0 +1,53 @@
+[33mcommit 5f45b073b56ebb2bbe46ed6baaa38aca42c4313f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mbranch-main-activity[m[33m)[m
+Author: Ezequiel <ezequiel.luna1988@gmail.com>
+Date:   Fri Oct 18 23:46:03 2019 -0300
+
+    nueva home
+
+[33mcommit 52407c2b2000b154ce5e4c5e195447711ff5b833[m
+Author: Ezequiel <ezequiel.luna1988@gmail.com>
+Date:   Wed Oct 16 20:33:56 2019 -0300
+
+    scroll view
+
+[33mcommit 06722cf003a7ce899803775b9342bf73e375cb16[m
+Author: linlumix <linlumix@gmail.com>
+Date:   Sun Oct 13 17:00:15 2019 -0300
+
+    agregado de data hardcodeada
+
+[33mcommit c908e04962e05b10ac598a20d3e5b4788df7aafd[m
+Author: linlumix <linlumix@gmail.com>
+Date:   Sun Oct 13 16:31:30 2019 -0300
+
+    lineas de adaptative-icon eliminadas
+
+[33mcommit e7fd90252c904c5b8617e37d2d0a752955b46a38[m
+Author: linlumix <linlumix@gmail.com>
+Date:   Sun Oct 13 16:03:40 2019 -0300
+
+    agregado de iconos
+
+[33mcommit da0aa1d90a7725cba00040307339c17e9e924335[m
+Author: Ezequiel <ezequiel.luna1988@gmail.com>
+Date:   Sat Oct 12 14:34:33 2019 -0300
+
+    prueba recycler view con listener
+
+[33mcommit 3f20c3433f696c5735b7e3bf8c8b0f8c0e5f5bfc[m
+Author: Ezequiel <ezequiel.luna1988@gmail.com>
+Date:   Sat Oct 12 12:35:23 2019 -0300
+
+    detalle pelicula layout creado
+
+[33mcommit abc5ac58d4681db7383ccb468e19a5b62b87d0ba[m
+Author: Ezequiel <ezequiel.luna1988@gmail.com>
+Date:   Sat Oct 12 11:28:18 2019 -0300
+
+    Sprint 1 / recycler view hecho
+
+[33mcommit c8d0280dc080afce00c26486aa53dfe0a325687f[m
+Author: Pat Ugarte <patriciomugarte@gmail.com>
+Date:   Mon Oct 7 16:27:30 2019 -0300
+
+    Initial commit

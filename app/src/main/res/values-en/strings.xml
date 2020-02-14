@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pipoca</string>
+    <string name="navigation_estadisticas">Statistics</string>
+    <string name="navigation_cartelera">Billboard</string>
+    <string name="navigation_favoritos">Favorites</string>
+    <string name="navigation_login">Login</string>
+    <string name="navigation_milista">My List</string>
+    <string name="navigation_notificaciones">Notifications</string>
+    <string name="navigation_peliculas">Movies</string>
+    <string name="navigation_series">Series</string>
+    <string name="navigation_extras">Extras</string>
+    <string name="navigation_cines_cercanos">Nearby Cinemas</string>
+    <string name="title_ActivityCartelera">Billboard</string>
+    <string name="title_ActivityDetallePelicula">Movie Details</string>
+    <string name="title_ActivityDetalleSerie">Series Details</string>
+    <string name="title_ActivityHome">Home</string>
+    <string name="title_ActivityNoticias">Nearby Cinemas</string>
+    <string name="title_ActivityPeliculas">Movies</string>
+    <string name="toolbar_buscar">Search</string>
+    <string name="toolbar_activity_cartelera">Billboard</string>
+    <string name="toolbar_activity_cines_cercanos">Nearby Cinemas</string>
+    <string name="toolbar_activity_peliculas">Movies</string>
+    <string name="detalles_lanzamiento">Release</string>
+    <string name="detalles_sinopsis">Storyline</string>
+    <string name="detalles_produccion">Production</string>
+    <string name="detalles_votes">Votes</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="detalles_idioma">Language</string>
+    <string name="ic_btn_Cartelera">Billboard</string>
+    <string name="ic_btn_Noticias">Nearby Cinemas</string>
+    <string name="ic_btn_Peliculas">Movies</string>
+    <string name="detalles_reparto">Cast</string>
+    <string name="title_ActivityFavoritos">Favorites</string>
+    <string name="contraseña">campo_contraseña</string>
+    <string name="boton_logueo">Sign-in</string>
+    <string name="boton_registro">Sign-up</string>
+    <string name="hint_email">Email</string>
+    <string name="logout">LOGOUT</string>
+    <string name="detalles_creacion">Created by</string>
+    <string name="detalles_detalles">Details</string>
+    <string name="detalles_origen">Origin</string>
+    <string name="detalles_pagina">Oficial website</string>
+    <string name="detalles_plataforma">Oficial platform</string>
+    <string name="navigation_header_bienvenida">Welcome!</string>
+</resources>

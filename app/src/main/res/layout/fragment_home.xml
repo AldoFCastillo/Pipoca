@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo" />-->
+
+   <!-- <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonCarteleraHome"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/boton_cartelera" />
+
+        <TextView
+            android:id="@+id/textViewButtonCarteleraHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Cartelera"
+            android:textSize="16dp" />
+
+    </LinearLayout>-->
+
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonPeliculasHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/boton_peliculas" />
+
+        <TextView
+            android:id="@+id/textViewButtonPeliculasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Peliculas"
+            android:textSize="16dp" />
+
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonSeriesHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/boton_series" />
+
+        <TextView
+            android:id="@+id/textViewButtonSeriesHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Series"
+            android:textSize="16dp" />
+
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonNoticiasHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/boton_noticias" />
+
+        <TextView
+            android:id="@+id/textViewButtonNoticiasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Noticias"
+            android:textSize="16dp" />
+
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonExtrasHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/boton_extras" />
+
+        <TextView
+            android:id="@+id/textViewButtonExtrasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Extras"
+            android:textSize="16dp" />
+
+    </LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonCarteleraHome"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/boton_cartelera"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textViewButtonCarteleraHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Cartelera"
+            android:textSize="16dp"
+            android:layout_alignLeft="@id/imageButtonCarteleraHome"
+            android:layout_alignRight="@id/imageButtonCarteleraHome"
+            android:textAlignment="center"
+            android:layout_below="@id/imageButtonCarteleraHome"
+            />
+
+        <ImageView
+            android:id="@+id/iconoCentral"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/icono_app"
+            android:layout_marginVertical="20dp"
+            android:layout_below="@id/textViewButtonCarteleraHome"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonLoginHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/boton_login"
+            android:layout_below="@id/iconoCentral" />
+
+        <TextView
+            android:id="@+id/textViewButtonLoginHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ic_btn_Login"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_below="@id/imageButtonLoginHome"
+            android:layout_alignLeft="@id/imageButtonLoginHome"
+            android:layout_alignRight="@id/imageButtonLoginHome"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="70dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonPeliculasHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/boton_peliculas" />
+
+        <TextView
+            android:id="@+id/textViewButtonPeliculasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageButtonPeliculasHome"
+            android:layout_alignLeft="@id/imageButtonPeliculasHome"
+            android:layout_alignRight="@id/imageButtonPeliculasHome"
+            android:text="@string/ic_btn_Peliculas"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSeriesHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/boton_series"/>
+
+        <TextView
+            android:id="@+id/textViewButtonSeriesHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageButtonSeriesHome"
+            android:layout_alignLeft="@id/imageButtonSeriesHome"
+            android:layout_alignRight="@id/imageButtonSeriesHome"
+            android:textAlignment="center"
+            android:text="@string/ic_btn_Series"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonNoticiasHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/textViewButtonPeliculasHome"
+            android:background="@drawable/boton_noticias"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewButtonNoticiasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageButtonNoticiasHome"
+            android:layout_alignLeft="@id/imageButtonNoticiasHome"
+            android:layout_alignRight="@id/imageButtonNoticiasHome"
+            android:layout_alignParentLeft="true"
+            android:text="@string/ic_btn_Noticias"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonExtrasHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/textViewButtonPeliculasHome"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/boton_extras" />
+
+        <TextView
+            android:id="@+id/textViewButtonExtrasHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageButtonExtrasHome"
+            android:layout_alignLeft="@id/imageButtonExtrasHome"
+            android:layout_alignRight="@id/imageButtonExtrasHome"
+            android:layout_alignParentRight="true"
+            android:text="@string/ic_btn_Extras"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonLoginHome"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/boton_login" />
+
+        <TextView
+            android:id="@+id/textViewButtonLoginHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ic_btn_Login"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>-->
+
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pipoca</string>
+    <string name="navigation_estadisticas">Estadisticas</string>
+    <string name="navigation_cartelera">Cartelera</string>
+    <string name="navigation_login">Login</string>
+    <string name="navigation_favoritos">Favoritos</string>
+    <string name="navigation_milista">Mi Lista</string>
+    <string name="navigation_notificaciones">Notificaciones</string>
+    <string name="navigation_peliculas">Películas</string>
+    <string name="navigation_series">Series</string>
+    <string name="title_ActivityCartelera">Cartelera</string>
+    <string name="navigation_extras">Extras</string>
+    <string name="navigation_cines_cercanos">Cines Cercanos</string>
+    <string name="title_ActivityDetallePelicula">Detalles de la película</string>
+    <string name="title_ActivityDetalleSerie">Detalles de la serie</string>
+    <string name="title_ActivityHome">Inicio</string>
+    <string name="title_ActivityNoticias">Cines Cercanos</string>
+    <string name="title_ActivityPeliculas">Películas</string>
+    <string name="toolbar_buscar">Buscar</string>
+    <string name="toolbar_activity_cartelera">Cartelera</string>
+    <string name="toolbar_activity_cines_cercanos">Cines Cercanos</string>
+    <string name="toolbar_activity_peliculas">Peliculas</string>
+    <string name="detalles_lanzamiento">Lanzamiento</string>
+    <string name="detalles_sinopsis">Sinopsis</string>
+    <string name="detalles_produccion">Producción</string>
+    <string name="detalles_votes">Votos</string>
+    <string name="movie_detail">Detalle Película</string>
+    <string name="detalles_idioma">Idioma</string>
+    <string name="ic_btn_Cartelera">Cartelera</string>
+    <string name="ic_btn_Noticias">Cines Cercanos</string>
+    <string name="ic_btn_Peliculas">Películas</string>
+    <string name="detalles_reparto">Reparto</string>
+    <string name="title_ActivityFavoritos">Favoritos</string>
+    <string name="contraseña">campo_contraseña</string>
+    <string name="boton_logueo">Iniciar Sesión</string>
+    <string name="boton_registro">Registrarse</string>
+    <string name="hint_email">Email</string>
+    <string name="logout">LOGOUT</string>
+    <string name="detalles_creacion">Creado por</string>
+    <string name="detalles_detalles">Detalles</string>
+    <string name="detalles_origen">Origen</string>
+    <string name="detalles_pagina">Pagina oficial</string>
+    <string name="detalles_plataforma">Plataforma oficial</string>
+    <string name="navigation_header_bienvenida">Bienvenido!</string>
+</resources>

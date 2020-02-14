@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- TODO AGREGAR LOS ICONOS,FONDO,TIPO DE LETRA Y COLORES PARA CADA ITEM DEL MENU -->
+    <item
+        android:id="@+id/navigationViewPeliculasItem"
+        android:checked="true"
+        android:title="@string/navigation_peliculas" />
+    <item
+        android:id="@+id/navigationViewNoticiasItem"
+        android:checked="true"
+        android:title="@string/navigation_cines_cercanos" />
+    <item
+        android:id="@+id/navigationViewCarteleraItem"
+        android:checked="true"
+        android:title="@string/navigation_cartelera" />
+    <item
+        android:id="@+id/navigationViewExtrasItem"
+        android:checked="true"
+        android:title="@string/navigation_extras" />
+    <item
+        android:id="@+id/navigationViewSeriesItem"
+        android:checked="true"
+        android:title="@string/navigation_series" />
+
+    <!-- Sección de configuración -->
+    <item
+        android:id="@+id/navigationViewLoginItem"
+        android:title="@string/navigation_login">
+        <menu>
+            <item
+                android:id="@+id/navigationViewFavoritosItem"
+                android:title="@string/navigation_favoritos" />
+
+            <item
+                android:id="@+id/navigationViewMiListaItem"
+                android:title="@string/navigation_milista" />
+
+            <item
+                android:id="@+id/navigationViewNotificacionesItem"
+                android:title="@string/navigation_notificaciones" />
+
+            <item
+                android:id="@+id/navigationViewCerrarSesionItem"
+                android:title="Cerrar Sesion"
+                android:visible="true" />
+
+
+        </menu>
+    </item>
+</menu>
+

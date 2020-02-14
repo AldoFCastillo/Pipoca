@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pipoca</string>
+
+    <!-- Titulos de Activities principales -->
+    <string name="title_ActivityMain" translatable="false">Pipoca</string>
+    <string name="title_ActivityHome">Inicio</string>
+    <string name="title_ActivityPeliculas">Peliculas</string>
+    <string name="title_ActivityCartelera">Cartelera</string>
+    <string name="title_ActivitySerie" translatable="false">Series</string>
+    <string name="title_ActivityExtras" translatable="false">Extras</string>
+    <string name="title_ActivityNoticias">Cines Cercanos</string>
+    <string name="title_ActivityFavoritos">Favoritos</string>
+
+    <!-- Titulos de Activities secundarias -->
+    <string name="title_ActivityDetallePelicula">DetallePelicula</string>
+    <string name="title_ActivityDetalleSerie">DetalleSerie</string>
+
+    <!-- Navigacion -->
+    <string name="navigation_peliculas">Peliculas</string>
+    <string name="navigation_series">Series</string>
+    <string name="navigation_cartelera">Cartelera</string>
+    <string name="navigation_extras">Extras</string>
+    <string name="navigation_cines_cercanos">Cines Cercanos</string>
+    <string name="navigation_login">Login</string>
+    <string name="navigation_favoritos">Favoritos</string>
+    <string name="navigation_estadisticas">Estadisticas</string>
+    <string name="navigation_notificaciones">Notificaciones</string>
+    <string name="navigation_milista">Mi Lista</string>
+
+    <!-- Otros -->
+    <string name="open_hamburguesa" translatable="false">"Open Hamburguesa"</string>
+    <string name="close_hamburguesa" translatable="false">"Close Hamburguesa"</string>
+    <string name="toolbar_buscar">Buscar</string>
+    <string name="toolbar_activity_cartelera">Cartelera</string>
+    <string name="toolbar_activity_cines_cercanos">Cines Cercanos</string>
+    <string name="toolbar_activity_extras" translatable="false">Extras</string>
+    <string name="toolbar_activity_series" translatable="false">Series</string>
+    <string name="toolbar_activity_peliculas">Peliculas</string>
+    <string name="movie_detail">Detalle Peliculas</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- Home Fragment -->
+    <string name="ic_btn_Cartelera">Cartelera</string>
+    <string name="ic_btn_Peliculas">Peliculas</string>
+    <string name="ic_btn_Series" translatable="false">Series</string>
+    <string name="ic_btn_Extras" translatable="false">Extras</string>
+    <string name="ic_btn_Noticias">Cines Cercanos</string>
+    <string name="ic_btn_Login" translatable="false">Login</string>
+
+    <!-- Detalle Peliculas / Series -->
+    <string name="detalles_votes">Votos</string>
+    <string name="detalles_idioma">Idioma</string>
+    <string name="detalles_lanzamiento">Lanzamiento</string>
+    <string name="detalles_sinopsis">Sinopsis</string>
+    <string name="detalles_reparto">Reparto</string>
+    <string name="detalles_produccion">Produccion</string>
+    <string name="detalles_detalles">Detalles</string>
+    <string name="detalles_origen">Origen</string>
+    <string name="detalles_creacion">Creado por</string>
+    <string name="detalles_plataforma">Plataforma oficial</string>
+    <string name="detalles_pagina">Pagina oficial</string>
+
+    <!-- Login -->
+    <string name="contraseña">Contraseña</string>
+    <string name="hint_email">Email</string>
+    <string name="boton_logueo">Ingresar</string>
+    <string name="boton_registro">Registrar</string>
+    <string name="logout">LOGOUT</string>
+
+    <!-- Facebook info -->
+    <string name="facebook_app_id" translatable="false">460337411500477</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb460337411500477</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_header_bienvenida">Bienvenido!</string>
+
+
+</resources>
+
+
+
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067533426367",
+    "firebase_url": "https://pipoca-928f3.firebaseio.com",
+    "project_id": "pipoca-928f3",
+    "storage_bucket": "pipoca-928f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067533426367:android:76f8bc63b1010a2940f00a",
+        "android_client_info": {
+          "package_name": "com.digitalhouse.a0819cpmoacn01arce_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067533426367-qgng81vfhj1lpluthjg87hdtf66fidod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalhouse.a0819cpmoacn01arce_01",
+            "certificate_hash": "e6624101f30d507dfe38acad4430033eb3a9b079"
+          }
+        },
+        {
+          "client_id": "1067533426367-3tvvqcft7nt4n8rbaj95f5f2dg0gjd3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_beOgFID-waMTicPSaSVPu6fEsx8zCaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067533426367-3tvvqcft7nt4n8rbaj95f5f2dg0gjd3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

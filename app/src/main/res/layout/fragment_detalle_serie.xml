@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayoutDetalleSerieFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondoOscuro">
+    tools:context=".view.fragment.DetalleSerieFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp">
+
+                <ImageView
+                    android:id="@+id/imageViewDetalleSerieTrailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:scaleType="centerCrop" />
+
+                <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingButtonFavoritosDetalleSerie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:src="@drawable/ic_favorite_border_white_24dp"
+                    app:fabSize="normal"
+                    app:layout_anchor="@+id/imageViewDetalleSerieTrailer"
+                    app:layout_anchorGravity="right|bottom" />-->
+
+                <ImageView
+                    android:id="@+id/imageViewDislikeDetallesPelicula"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="44dp"
+
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_favorite_border_white_24dp"
+                    app:fabSize="normal"
+                    app:layout_anchor="@+id/imageViewDetalleSerieTrailer"
+
+                    app:layout_anchorGravity="right|bottom" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieLikeDetallesPelicula"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                    app:fabSize="normal"
+                    app:layout_anchor="@+id/imageViewDetalleSerieTrailer"
+                    app:layout_anchorGravity="right|bottom"
+                    app:lottie_autoPlay="false"
+                    app:lottie_fileName="like.json"
+                    app:lottie_imageAssetsFolder="assets" />
+
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieGeneros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearEstrella"
+                    android:layout_marginStart="10sp"
+                    android:layout_toRightOf="@+id/imageViewDetalleSeriePoster"
+                    android:textColor="#ACB1B4"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewDetalleSeriePoster"
+                    android:layout_width="140dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:id="@id/linearEstrella"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageViewDetalleSeriePoster"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewDetalleSerieNombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/colorTextoClaro"
+                            android:textSize="30dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewDetalleSerieAnio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/colorTextoClaro"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" / "
+                                android:textColor="@color/colorTextoClaro"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textViewDetalleSerieDuracion"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/colorTextoClaro"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" min/ "
+                                android:textColor="@color/colorTextoClaro"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textViewDetalleSerieClasificacion"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@color/colorTextoClaro"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearEstrella"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/star" />
+
+                            <TextView
+                                android:id="@+id/textViewDetalleSeriePuntaje"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/colorTextoClaro"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/botonDetalleSeriesSinopsis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:background="#000"
+                android:text="@string/detalles_sinopsis"
+                android:textColor="@color/colorTextoClaro"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDetalleSerieSinopsis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textColor="@color/colorTextoClaro"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+            <!--<Spinner
+                android:id="@+id/spinnerSeriesTemporadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@layout/spinner_item"
+                android:outlineAmbientShadowColor="#f0f5f9"
+                android:pointerIcon="arrow"
+                android:scrollbarSize="20sp" />-->
+
+            <Button
+                android:id="@+id/botonDetalleSeriesDetalles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:background="#000"
+                android:text="@string/detalles_detalles"
+                android:textColor="#f0f5f9"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearDetalleSerieDetalles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieTituloFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/detalles_lanzamiento"
+                    android:textColor="@color/colorTextoClaro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieFechaEstreno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5sp"
+                    android:text=""
+                    android:textColor="#ACB1B4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieTituloPais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/detalles_origen"
+                    android:textColor="@color/colorTextoClaro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSeriePaisOrigen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5sp"
+                    android:text=""
+                    android:textColor="#ACB1B4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieTituloIdioma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/detalles_idioma"
+                    android:textColor="@color/colorTextoClaro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieIdioma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5sp"
+                    android:text=""
+                    android:textColor="#ACB1B4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieTituloCreadoPor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/detalles_creacion"
+                    android:textColor="@color/colorTextoClaro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieCreadoPor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5sp"
+                    android:text=""
+                    android:textColor="#ACB1B4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieTituloPlataforma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/detalles_plataforma"
+                    android:textColor="@color/colorTextoClaro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSeriePlataforma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5sp"
+                    android:text=""
+                    android:textColor="#ACB1B4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSerieTituloPagina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/detalles_pagina"
+                    android:textColor="@color/colorTextoClaro"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewDetalleSeriePagina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5sp"
+                    android:text=""
+                    android:textColor="#ACB1B4"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/botonDetalleSeriesReparto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:background="#000"
+                android:text="@string/detalles_reparto"
+                android:textColor="#f0f5f9"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerSerieReparto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="10sp"
+                android:text="VIDEO"
+                android:textColor="#f0f5f9"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view_serie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                app:showFullScreenButton="true" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imagenDeCargaSerieDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1e2022"
+        android:visibility="visible" />
+
+</FrameLayout>
+
+

@@ -58,8 +58,9 @@ public class  CarteleraAdapter extends RecyclerView.Adapter {
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflador = LayoutInflater.from(parent.getContext());
         View view = inflador.inflate(R.layout.celda_cartelera, parent, false);
-        PeliculaViewHolder peliculaViewHolder = new PeliculaViewHolder(view);
-        return peliculaViewHolder;
+       // PeliculaViewHolder peliculaViewHolder = new PeliculaViewHolder(view);
+      //  return peliculaViewHolder;
+        return new PeliculaViewHolder(view);
     }
 
     @Override
@@ -81,7 +82,7 @@ public class  CarteleraAdapter extends RecyclerView.Adapter {
         void informarSeleccionPelicula(Integer posicion);
     }
 
-    protected class PeliculaViewHolder extends RecyclerView.ViewHolder {
+    class PeliculaViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.imageViewPosterCeldaCartelera)
         ImageView imageViewPosterCeldaCartelera;
         @BindView(R.id.textViewTitleCeldaCartelera)
@@ -90,10 +91,10 @@ public class  CarteleraAdapter extends RecyclerView.Adapter {
         FloatingActionButton detallePeliculasFloatingButton;*/
         @BindView(R.id.coordinatorCeldaCartelera)
         CoordinatorLayout coordinatorCeldaCartelera;
-        @BindView(R.id.imageViewDislikeCeldaPelicula)
+    /*    @BindView(R.id.imageViewDislikeCeldaPelicula)
         ImageView imageViewDislike;
         @BindView(R.id.lottieLikeCeldaPelicula)
-        LottieAnimationView lottieLike;
+        LottieAnimationView lottieLike;*/
         private Pelicula pelicula;
         private FirebaseAuth mAuth;
         List<Serializable> serializableList = new ArrayList<>();
@@ -190,8 +191,8 @@ public class  CarteleraAdapter extends RecyclerView.Adapter {
             Glide.with(itemView)
                     .load(this.pelicula.getPosterPath())
                     .into(imageViewPosterCeldaCartelera);
-            favoritosFragment.setFavButton(pelicula, imageViewDislike, lottieLike);
-            favoritosFragment.setFavVisibility(pelicula, imageViewDislike, lottieLike);
+            /*favoritosFragment.setFavButton(pelicula, imageViewDislike, lottieLike);
+            favoritosFragment.setFavVisibility(pelicula, imageViewDislike, lottieLike);*/
         }
 
 
